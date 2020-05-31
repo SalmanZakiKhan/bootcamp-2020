@@ -31,6 +31,6 @@ jobs:
       run: npm install --global surge
       
     - name: Deploying using Surge
-      run: surge ./ firsthosting.surge.sh/ --token {{ secrets.SURGE_TOKEN }}
+      run: surge ./ firsthosting.surge.sh/ --token {{ secrets.SURGE_TOKEN1 }}
       
         
